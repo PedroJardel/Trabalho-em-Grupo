@@ -11,6 +11,7 @@ function mult(a ,  b){
     return (a * b)
 }
 
-function div(){
+function div(a, b){
     //TODO: Implementar divisão
+    return (a / b)
 }
