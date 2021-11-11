@@ -1,0 +1,19 @@
+    1  git clone history
+    2  git history
+    3  git clone $ git clone history
+    4  git clone https://github.com/PedroJardel/Trabalho-em-Grupo.git
+    5  git history
+    6  cd Trabalho-em-Grupo/
+    7  git history
+    8  git checkout -b feature/subtracao
+    9  git merge request
+   10  git add .
+   11  git commit -m "Adição da função subtração"
+   12  git push origin feature/subtracao
+   13  git -d feature/subtracao
+   14  git branch -d feature/subtracao
+   15  git checkout master
+   16  git branch -d feature/subtracao
+   17  git pull origin
+   18  git branch -d feature/subtracao
+   19  history
