@@ -1,0 +1,43 @@
+  261  git clone https://github.com/PedroJardel/Trabalho-em-Grupo.git
+  262  cd Trabalho-em-Grupo/
+  263  git init
+  264  ls
+  265  git branch develop
+  266  git branch
+  267  git checkout develop
+  268  git pull master
+  269  git pull https://github.com/PedroJardel/Trabalho-em-Grupo.git
+  270  ls
+  271  git checkout -b feature/mult
+  272  ls
+  273  git status
+  274  git add .
+  275  git commit -m "Adição da função multiplicação"
+  276  git pull origin
+  277  git push origin feature/mult
+  278  git checkout master
+  279  git pull master origin
+  280  git pull origin
+  281  git status
+  282  git branch
+  283  git branch -d feature/mult
+  284  git checkout -b feature/div
+  285  ls
+  286  git status
+  287  git add .
+  288  git commit -m "Adição da função de divisão"
+  289  git push origin feature/div
+  290  git -d feature/div
+  291  git branch -d feature/div
+  292  git checkout master
+  293  git branch -d feature/div
+  294  git checkout feature/div
+  295  git status
+  296  git pull origin master
+  297  git checkout master
+  298  git pull origin
+  299  git branch -d feature/div
+  300  git tag 1.0.0 origin
+  301  git status
+  302  git push origin
+  303  history
