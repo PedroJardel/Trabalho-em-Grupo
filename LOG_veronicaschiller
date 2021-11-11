@@ -1,0 +1,16 @@
+    1 git clone https://github.com/PedroJardel/Trabalho-em-Grupo.git
+    2  git history
+    3  cd Trabalho-em-Grupo/
+    4  git history
+    5  git checkout -b feature/soma
+    6  git merge request
+    7  git add .
+    8  git commit -m "Adição da função soma"
+    9  git push origin feature/soma
+   10  git -d feature/subtracao
+   11  git branch -d feature/soma
+   12  git checkout master
+   13  git branch -d feature/soma
+   14  git pull origin
+   15  git branch -d feature/soma
+   16  history
